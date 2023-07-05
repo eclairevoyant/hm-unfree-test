@@ -1,0 +1,69 @@
+{
+  "nodes": {
+    "home-manager": {
+      "inputs": {
+        "nixpkgs": [
+          "nixpkgs"
+        ]
+      },
+      "locked": {
+        "lastModified": 1688538658,
+        "narHash": "sha256-clmdd/NB9jqhuB9TlSyj9nI1dW2rqroPQCsHGYfD1jU=",
+        "owner": "nix-community",
+        "repo": "home-manager",
+        "rev": "2f78e6fcba61ce81536d19e6c662e55ab272d539",
+        "type": "github"
+      },
+      "original": {
+        "owner": "nix-community",
+        "repo": "home-manager",
+        "type": "github"
+      }
+    },
+    "nixpkgs": {
+      "locked": {
+        "lastModified": 1688500189,
+        "narHash": "sha256-djYYiY4lzJOlXOnTHytH6BUugrxHDZjuGxTSrU4gt4M=",
+        "owner": "nixos",
+        "repo": "nixpkgs",
+        "rev": "78419edadf0fabbe5618643bd850b2f2198ed060",
+        "type": "github"
+      },
+      "original": {
+        "owner": "nixos",
+        "ref": "nixos-unstable",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "pacclean": {
+      "inputs": {
+        "nixpkgs": [
+          "nixpkgs"
+        ]
+      },
+      "locked": {
+        "lastModified": 1688524830,
+        "narHash": "sha256-RJSoT9+c5/AGhF8wqJDiMZxfpYdNmBtqWdlAXhsvpYg=",
+        "owner": "eclairevoyant",
+        "repo": "pacclean",
+        "rev": "8a4043c6de4dd3aaf4a1837b634ab6e2ac400b7a",
+        "type": "github"
+      },
+      "original": {
+        "owner": "eclairevoyant",
+        "repo": "pacclean",
+        "type": "github"
+      }
+    },
+    "root": {
+      "inputs": {
+        "home-manager": "home-manager",
+        "nixpkgs": "nixpkgs",
+        "pacclean": "pacclean"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}
